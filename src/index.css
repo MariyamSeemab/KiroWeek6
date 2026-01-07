@@ -1,0 +1,46 @@
+/* @tailwind directives are processed by PostCSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900;
+  }
+}
+
+@layer components {
+  .sidebar-transition {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  
+  .gold-glow {
+    @apply ring-2 ring-gold ring-opacity-50 shadow-lg shadow-gold/20;
+  }
+  
+  .gauge-container {
+    @apply bg-white rounded-lg shadow-md p-4;
+  }
+
+  /* Custom slider styles */
+  .slider-thumb::-webkit-slider-thumb {
+    appearance: none;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #F59E0B;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .slider-thumb::-moz-range-thumb {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #F59E0B;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+}
