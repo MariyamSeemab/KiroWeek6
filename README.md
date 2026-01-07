@@ -17,7 +17,7 @@ The Smart Silo Storage Referee combines IoT environmental data, market pricing i
 
 ## 🚀 Live Demo
 
-Visit the live application: [Smart Silo Storage Referee](https://your-vercel-url.vercel.app)
+Visit the live application: [Smart Silo Storage Referee][(https://695ecd8b7ee8f8527d7e423d--smart-silostorage.netlify.app/)]
 
 ## 🛠️ Technology Stack
 
